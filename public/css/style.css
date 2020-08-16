@@ -1,0 +1,75 @@
+/* css dasar */
+body{align-content: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;}
+
+.BGbody{
+    background-image: url("../../assets/img/sampul02.jpg"); 
+    background-repeat:repeat-y; position: fixed;
+    width: 100%; height: 100%;
+    background-size: 100%;
+    margin-top: -10px; margin-left: -10px;}
+
+.wrapper{ background-color:transparent; align-content: center;
+    position: relative; max-width: 880px; width: auto; margin: auto;
+    align-content: center;}
+
+.flex-container-wrap{ display: flex;
+    flex-wrap: wrap; margin: auto;
+    align-items: center;
+    justify-content: center;max-width: 850px;}
+.flex-container-badan{ display: flex;
+    flex-wrap: wrap; margin: auto;
+    justify-content: center;max-width: 850px;}
+
+    
+section{background-color: white; box-sizing: border-box; 
+     border-radius: 10px; }
+    section h5 {margin:auto;text-align: center;}
+    section p {margin-left:10px;margin-right: 10px;}
+
+a {display: inline-block;position: relative;
+    overflow: hidden;transition: all .3s;}
+    a:before,a:after {transition: all .3s;}
+
+
+#ProfilImg{ width: 130px; height: 130px;border-radius:50%; margin:10px;}
+
+/* Class section  */
+.header { padding: 1em; max-width: 822px; margin-left: auto; margin-right: auto;}
+    
+.login {padding: 1em; max-width: 400px; height: auto; display: block;
+    margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto; text-align: center;
+    font-size: small; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .login ul { list-style: none; margin: 0; padding: 0;}
+    .login input{margin: 2px; background-color: #d1d1d1; border-radius:5px;
+        border: none; width: auto; color: #000000; padding: 5px;}
+
+
+.cobaapi{padding: 1em; width: 400px;  border-radius: 10px; margin:10px; text-align: center;
+    font-size: small; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .cobaapi input[type="text"] {color: #303030; background-color: #e7e7e7; 
+        border:solid; border-radius: 10px; height: 25px; padding-left: 5px;}
+    .cobaapi input[type="submit"] {background-color: #303030; color: #e7e7e7;
+        border:none; border-radius: 5px; height: 30px;}
+
+
+.catatan{padding: 1em; width: 400px;  border-radius: 10px; margin:10px; 
+    font-size: small; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .catatan textarea {width: 340px; height: 90px; margin: 2px; background-color: #e7e7e7; border-radius:5px;
+         padding: 5px; border-style: solid;}
+
+.aboutme{padding: 1em; width: 400px; height: auto; border-radius: 10px; margin: 10px;
+        font-size: small; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .github {background-color: #EAEAEA; width:"40px"; height:"40px";border-radius: 10px;}
+        #imgSosial{width: 35px; height: 35px;}
+        .github:hover {background-color: #303030;}
+    .twitter {background-color: #EAEAEA; width:"50px"; height:"50px";border-radius: 10px;}
+        .twitter:hover {background-color:#1E90FF;}
+        
+    
+.footer{background-color: black;color:#EAEAEA;  
+    margin-left: auto; margin-right: auto; 
+    max-width: 822px; padding: 20px; border-radius: 10px;
+    font-size: small; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .footer a{color: #0162c3; text-decoration: underline;}
+    .footer a:hover{color: rgb(255, 255, 255); text-decoration: underline;}
